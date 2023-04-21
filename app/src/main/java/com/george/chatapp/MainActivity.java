@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("先合并到主分支上");
         System.out.println("张三的分支，张三的修改");
         System.out.println("李四的分支，李四的修改");
-
+        ///3434343434343434
+        System.out.println("test");
         //跳转注册
         register.setOnClickListener(new View.OnClickListener() {
             @Override
