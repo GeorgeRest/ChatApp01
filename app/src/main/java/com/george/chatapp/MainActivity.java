@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         initialize();
         loginJudge();
         showUserInfo();
-        System.out.println("zxp");
+        System.out.println("zxp2");
 
         //跳转注册
         register.setOnClickListener(new View.OnClickListener() {
