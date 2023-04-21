@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         initialize();
         loginJudge();
         showUserInfo();
+        System.out.println("zxp");
 
         //跳转注册
         register.setOnClickListener(new View.OnClickListener() {
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         forgetPw = (TextView) findViewById(R.id.tv_forget_pw);
         login = (Button) findViewById(R.id.bt_login);
         register = (Button) findViewById(R.id.bt_register);
+
     }
 
     private void loginJudge() {
