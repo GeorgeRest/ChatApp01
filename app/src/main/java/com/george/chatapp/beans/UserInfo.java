@@ -40,5 +40,5 @@ public class UserInfo extends LitePalSupport {
         this.pw = pw;
     }
 
-    //zhw
+
 }
