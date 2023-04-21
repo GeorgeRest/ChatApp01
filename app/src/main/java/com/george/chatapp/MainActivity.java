@@ -33,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         userState = getSharedPreferences("userState", MODE_PRIVATE);
+        initialize();
+        loginJudge();
+        showUserInfo();
+        System.out.println("zxp2");
+
         //跳转注册
         register.setOnClickListener(new View.OnClickListener() {
             @Override
