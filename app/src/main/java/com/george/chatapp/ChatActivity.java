@@ -44,6 +44,7 @@ public class ChatActivity extends AppCompatActivity {
     private String userName;
     private int imageId;
     private String newName;
+    //
     private String name;
 
     @Override
