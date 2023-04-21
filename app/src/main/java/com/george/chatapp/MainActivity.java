@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         loginJudge();
         showUserInfo();
         System.out.println("zxp2");
+        System.out.println("先合并到主分支上");
+        System.out.println("张三的分支，张三的修改");
 
         //跳转注册
         register.setOnClickListener(new View.OnClickListener() {
