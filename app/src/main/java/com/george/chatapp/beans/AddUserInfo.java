@@ -50,4 +50,7 @@ public class AddUserInfo extends LitePalSupport {
     public void setImageName(String imageName) {
         this.imageName = imageName;
     }
+
+
+    //zhww
 }

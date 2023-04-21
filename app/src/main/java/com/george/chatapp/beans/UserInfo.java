@@ -39,4 +39,6 @@ public class UserInfo extends LitePalSupport {
     public void setPw(String pw) {
         this.pw = pw;
     }
+
+
 }
