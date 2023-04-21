@@ -86,7 +86,6 @@ public class AddActivity extends AppCompatActivity {
                 selectedIndex = 1;
                 photoChange(selectedIndex);
 
-
                 break;
             case R.id.photo3:
                 imageName = "photo3";
@@ -157,6 +156,8 @@ public class AddActivity extends AppCompatActivity {
                 imageName = "photo16";
                 selectedIndex = 15;
                 photoChange(selectedIndex);
+                break;
+            default:
                 break;
         }
     }
